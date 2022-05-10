@@ -21,3 +21,22 @@ ul, li {
 .list {
     margin: 15px, 0;
 }
+
+.list > li {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
+
+.btn > button {
+    padding: 5px;
+    width: 60px;
+}
